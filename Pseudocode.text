@@ -3,7 +3,19 @@ Huffman’s algorithm requires first determining the probability (or frequency o
 they occur in the information source to be coded.For example, suppose:the possible items are the symbols A,B,C,D,E,F,G,H (so N=8)
 and the message sequence to be coded is AAAAABBAHHBCBGCCC (so K=17).
 
-1st Step: Determinr Frequencies:
+1st Step: Determine Frequencies:
 Using a completely filled trie, we could construct a code for the possible symbols that would use log 2 (8) * 17 = 51 bits to represent this sequence
 But we can do better! The table of counts or frequencies for this message would be:
 A: 6; B: 4; C: 4; D: 0; E: 0; F: 0; G: 1; H: 2
+
+ 2nd Step:Construction of  the optimum coding trie:
+ The basic idea is:
+We want common items to be near the root, so they have a short code; rare items can be farther from the root.
+In fact, we want an optimum trie: one that gives the smallest average code length.
+We could attempt to build the trie from the top down. For example:
+A in this example is the most common item... make it a child of the root.
+B,C are the next most common items... put them farther down the tree.
+G,H are the rarest items... make them farthest from the root.
+
+But while pretty good, this coding trie is not optimum, and it’s not easy to come up with an efficient algorithm that will build the optimum coding trie top-down
+Huffman’s breakthrough was instead to build the trie from the bottom up, and he proved that his approach is guaranteed to produce an optimum coding trie.
