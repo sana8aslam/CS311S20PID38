@@ -1,4 +1,6 @@
-Pseudocode:
+                                                                  Building of Psuedocode
+                                                                  
+                                                                  
 Huffman’s algorithm requires first determining the probability (or frequency of occurrence, or count) of each of the possible N symbols as 
 they occur in the information source to be coded.For example, suppose:the possible items are the symbols A,B,C,D,E,F,G,H (so N=8)
 and the message sequence to be coded is AAAAABBAHHBCBGCCC (so K=17).
@@ -21,6 +23,7 @@ But while pretty good, this coding trie is not optimum, and it’s not easy to c
 Huffman’s breakthrough was instead to build the trie from the bottom up, and he proved that his approach is guaranteed to produce an optimum coding trie.
 
 3rd step:Huffman’s algorithm: constructing the tree
+
 Once you have the frequencies for all the possible items in the sequence to be coded, Huffman’s algorithm will construct an optimal binary trie for coding
 The algorithm starts with a “forest” of single-node trees, one for each symbol in the input alphabet
 At each step of the algorithm, two trees T1, T2 in the “forest” (which two, do you think?) are joined into one tree T3 by creating a new node that is the root of the new tree T3, and has T1, T2 as its left and right subtrees
@@ -31,6 +34,7 @@ The resulting trie is a “full”, but not necessarily “completely filled”,
 ...and the trie is guaranteed to have the smallest possible average path length (average taken according to probability of occurrence of symbols)
 
 4th step:Huffman’s algorithm pseudocode
+
 0. Determine the count of each symbol in the input message.
 
 1. Create a forest of single-node trees. Each node in the initial forest represents a symbol from the set of possible symbols, and contains the count of that symbol in the message to be coded. Symbols with a count of zero are ignored (consider them to be impossible).
