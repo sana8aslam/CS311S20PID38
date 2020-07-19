@@ -124,6 +124,29 @@ namespace HUFFMANTEST
             streamWriter.Close();
             //extension();
         }
+           public void huffwriter(int height, Node node, StreamWriter path)
+        {
+            if (node == null)
+                return;
+            for (int i = 0; i < height; i++)
+            {
+                Console.Write("\t");
+
+
+            }
+
+              path.WriteLine(  node.bitcode);
+              huffwriter(height + 1, node.Left, path);
+              huffwriter(height + 1, node.Right, path);
+
+        }
+        public void compressFile(int height, Node node)
+        {
+            StreamWriter sw = new StreamWriter(@"C:\Users\fahad\source\repos\HUFFMANTEST\HUFFMANTEST\compress.txt");
+            huffwriter(height, node, sw);
+            sw.Close();
+            //extension();
+        }
 
 
     }
