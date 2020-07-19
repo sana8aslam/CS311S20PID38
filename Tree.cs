@@ -56,13 +56,9 @@ namespace HUFFMANTEST
 
                 if (orderedNodes.Count >= 2)
                 {
-                    // Take first two items
+                   
                     List<Node> taken = orderedNodes.Take(2).ToList<Node>();
-
-                    // Create a parent node by combining the frequencies
-
-                    // Node n1 = taken[0];
-                    //Node n2 = taken[1];
+  
                     Node parent = new Node()
                     {
                         Symbol = taken[0].Symbol + taken[1].Symbol,
@@ -122,7 +118,6 @@ namespace HUFFMANTEST
             StreamWriter streamWriter = new StreamWriter(@"C:\Users\fahad\Documents\AoA\AOA-Project-master\AOA-Project-master\Text file Compression\schemeFile.txt");
             writer(node, streamWriter);
             streamWriter.Close();
-            //extension();
         }
            public void huffwriter(int height, Node node, StreamWriter path)
         {
@@ -145,7 +140,7 @@ namespace HUFFMANTEST
             StreamWriter sw = new StreamWriter(@"C:\Users\fahad\source\repos\HUFFMANTEST\HUFFMANTEST\compress.txt");
             huffwriter(height, node, sw);
             sw.Close();
-            //extension();
+          
         }
 
 
