@@ -31,11 +31,10 @@ namespace HUFFMANTEST
                 tree.setHuffcode("", Nodes[0]);
                 tree.Ascii("", Nodes[0]);
                 tree.Filewrite(Nodes[0]);
-                Console.WriteLine("\n\n");
-                Console.WriteLine("\n\n#Symbols    -    #Codes\n");
-            //tree.Filewrite(nodeList[0]);
+                Console.WriteLine("\n\n")'
                 tree.Printcode(Nodes[0]);
                 Console.WriteLine("\n\n");
+                tree.compressFile(0, Nodes[0]);
 
         }
     }
