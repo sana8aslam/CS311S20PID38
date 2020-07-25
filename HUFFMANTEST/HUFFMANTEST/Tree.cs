@@ -172,7 +172,7 @@ namespace HUFFMANTEST
             StreamWriter sw = new StreamWriter(@"C:\Users\fahad\source\repos\HUFFMANTEST\HUFFMANTEST\compress.txt");
             huffwriter(height, node, sw);
             sw.Close();
-            //extension();
+           
         }
 
         public void extension()
