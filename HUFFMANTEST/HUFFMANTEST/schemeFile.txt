@@ -8,8 +8,7 @@ Symbol : p - Bytes : 01110000 - Code : 1001
 Symbol : o - Bytes : 01101111 - Code : 1010
 Symbol : d - Bytes : 01100100 - Code : 1011
 Symbol : t - Bytes : 01110100 - Code : 1100
-Symbol : 
- - Bytes : 00001010 - Code : 11010000
+Symbol :   - Bytes : 00001010 - Code : 11010000
 Symbol : n - Bytes : 01101110 - Code : 11010001
 Symbol : b - Bytes : 01100010 - Code : 1101001
 Symbol : q - Bytes : 01110001 - Code : 110101
