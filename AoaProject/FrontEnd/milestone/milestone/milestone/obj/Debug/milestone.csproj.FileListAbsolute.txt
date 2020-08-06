@@ -1,0 +1,10 @@
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.Form1.resources
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.Properties.Resources.resources
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.csproj.GenerateResource.cache
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.csproj.CoreCompileInputs.cache
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.csprojAssemblyReference.cache
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\bin\Debug\milestone.exe.config
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\bin\Debug\milestone.exe
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\bin\Debug\milestone.pdb
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.exe
+C:\Users\Tayyab Aslam\Desktop\milestone\milestone\obj\Debug\milestone.pdb
