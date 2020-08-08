@@ -1,0 +1,17 @@
+Symbol : r - Bytes : 01110010 - Code : 0000
+Symbol : w - Bytes : 01110111 - Code : 00010
+Symbol : e - Bytes : 01100101 - Code : 00011
+Symbol : i - Bytes : 01101001 - Code : 001
+Symbol : a - Bytes : 01100001 - Code : 01
+Symbol : y - Bytes : 01111001 - Code : 1000
+Symbol : p - Bytes : 01110000 - Code : 1001
+Symbol : o - Bytes : 01101111 - Code : 1010
+Symbol : d - Bytes : 01100100 - Code : 1011
+Symbol : t - Bytes : 01110100 - Code : 1100
+Symbol : 
+ - Bytes : 00001010 - Code : 11010000
+Symbol : n - Bytes : 01101110 - Code : 11010001
+Symbol : b - Bytes : 01100010 - Code : 1101001
+Symbol : q - Bytes : 01110001 - Code : 110101
+Symbol : s - Bytes : 01110011 - Code : 11011
+Symbol : u - Bytes : 01110101 - Code : 111
