@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fahad\\source\\repos\\HUFFMANTEST\\HUFFMANTEST\\HUFFMANTEST.csproj": {}
+    "C:\\Users\\fahad\\Desktop\\AoaProject\\BackendOfProject\\HUFFMANTEST\\HUFFMANTEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fahad\\source\\repos\\HUFFMANTEST\\HUFFMANTEST\\HUFFMANTEST.csproj": {
+    "C:\\Users\\fahad\\Desktop\\AoaProject\\BackendOfProject\\HUFFMANTEST\\HUFFMANTEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fahad\\source\\repos\\HUFFMANTEST\\HUFFMANTEST\\HUFFMANTEST.csproj",
+        "projectUniqueName": "C:\\Users\\fahad\\Desktop\\AoaProject\\BackendOfProject\\HUFFMANTEST\\HUFFMANTEST.csproj",
         "projectName": "HUFFMANTEST",
-        "projectPath": "C:\\Users\\fahad\\source\\repos\\HUFFMANTEST\\HUFFMANTEST\\HUFFMANTEST.csproj",
+        "projectPath": "C:\\Users\\fahad\\Desktop\\AoaProject\\BackendOfProject\\HUFFMANTEST\\HUFFMANTEST.csproj",
         "packagesPath": "C:\\Users\\fahad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fahad\\source\\repos\\HUFFMANTEST\\HUFFMANTEST\\obj\\",
+        "outputPath": "C:\\Users\\fahad\\Desktop\\AoaProject\\BackendOfProject\\HUFFMANTEST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -9,7 +9,7 @@ using System.Collections;
 namespace milestone
 {
 
-    class Tree
+    class Tree:Form1
     {
         //public string HuffCode;
 

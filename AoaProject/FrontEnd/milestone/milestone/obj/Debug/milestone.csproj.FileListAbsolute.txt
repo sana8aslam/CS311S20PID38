@@ -28,3 +28,13 @@ C:\Users\fahad\Desktop\milestone\milestone\milestone\obj\Debug\milestone.csproj.
 C:\Users\fahad\Desktop\milestone\milestone\milestone\obj\Debug\milestone.csproj.CoreCompileInputs.cache
 C:\Users\fahad\Desktop\milestone\milestone\milestone\obj\Debug\milestone.exe
 C:\Users\fahad\Desktop\milestone\milestone\milestone\obj\Debug\milestone.pdb
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\bin\Debug\milestone.exe.config
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\bin\Debug\milestone.exe
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\bin\Debug\milestone.pdb
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.csprojAssemblyReference.cache
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.Form1.resources
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.Properties.Resources.resources
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.csproj.GenerateResource.cache
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.csproj.CoreCompileInputs.cache
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.exe
+C:\Users\fahad\Desktop\AoaProject\FrontEnd\milestone\milestone\obj\Debug\milestone.pdb

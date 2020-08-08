@@ -171,9 +171,9 @@ namespace milestone
 
             List<Node> Nodes;
             Tree tree = new Tree();
-            String filename =listBoxPath.Text ;
+            String filename = listBoxPath.Text ;
             //file = filename;
-            FileInfo f = new FileInfo(filename);
+           // FileInfo f = new FileInfo(filename);
 
 
             Nodes = tree.CalculateFrequency(filename);
