@@ -24,7 +24,21 @@ namespace milestone
         public Form1()
         {
             InitializeComponent();
+            button1.MouseEnter += OnMouseEnterButton;
+            button1.MouseLeave += OnMouseLeaveButton;
+
         }
+
+         private void OnMouseEnterButton(object sender, EventArgs e)
+         {
+             button6.BackColor = SystemColors.ButtonHighlight; // or Color.Red or whatever you want
+             button7.BackColor = SystemColors.ButtonHighlight; // or Color.Red or whatever you want
+         }
+         private void OnMouseLeaveButton(object sender, EventArgs e)
+         {
+             button6.BackColor = SystemColors.ButtonFace;
+             button7.BackColor = SystemColors.ButtonFace;
+         }
 
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -80,6 +94,8 @@ namespace milestone
 
         private void Button7_Click(object sender, EventArgs e)
         {
+            button7.BackColor = Color.Red; // or Color.Red or whatever you want
+           // button7.BackColor = SystemColors.ButtonFace;
             //panel1.Hide();
             //panel2.Hide();
             //panel4.Hide();
@@ -115,6 +131,9 @@ namespace milestone
 
         private void Button6_Click(object sender, EventArgs e)
         {
+            button6.BackColor = Color.Red; // or Color.Red or whatever you want
+           // button6.BackColor = SystemColors.ButtonFace;
+
             if (index > 0)
             {
                 --index;
